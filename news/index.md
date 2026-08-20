@@ -23,6 +23,8 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 #### Fixed
 
+- `import_td`, `export_td` and `import_outliers`: fixed typo in error
+  message
 - [`retrieve_td()`](https://inseefr.github.io/rjd3production/reference/regression_tools.md)
   works now with LY as only td regressor
   [\#91](https://github.com/InseeFr/rjd3production/issues/91)
