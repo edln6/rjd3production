@@ -13,7 +13,7 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 #### Changed
 
 - `create_insee_regressors` gives new names for calendar regressors :
-  REG2_week instead of REG2_group1 etc.
+  “REG2_week” instead of “REG2_group1” etc.
 - [`init_env()`](https://inseefr.github.io/rjd3production/reference/init_env.md)
   creates a project with DESCRIPTION file with `Type: Project` and
   {rjd3qr} as dependency
