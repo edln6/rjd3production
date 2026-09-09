@@ -33,8 +33,8 @@ The project path invisibly.
 ``` r
 project_path <- tempfile(pattern = "my-project")
 
-if (FALSE) { # \dontrun{
+if (interactive()) {
 # Create a new project
 init_env(path = project_path)
-} # }
+}
 ```

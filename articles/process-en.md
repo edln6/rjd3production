@@ -1,8 +1,5 @@
 # Setup a production chain with JDemetra+
 
-    #> Installing package into '/home/runner/work/_temp/Library'
-    #> (as 'lib' is unspecified)
-
 ``` r
 
 library("rjd3production")
@@ -158,7 +155,7 @@ If we have any, we need to assign calendar regressors to each series:
 ``` r
 
 jws_compute(jws)
-assign_td(td = td, jws = jws)
+assign_td(td = td, jws = jws, spec_type = c("Estimation", "Reference"))
 #> Série 0.2.09.10.M, 1/3
 #> Série 0.2.08.10.M, 2/3
 #> Série 0.2.07.10.M, 3/3

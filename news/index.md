@@ -10,6 +10,12 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ### [Unreleased](https://github.com/InseeFr/rjd3production/compare/v1.1.1...HEAD)
 
+#### Added
+
+- Set a new option `rjd3production.thresholds` with the new thresholds
+  to fit the td regressors in `select_td`.
+  [\#7](https://github.com/InseeFr/rjd3production/issues/7)
+
 #### Changed
 
 - `create_ws_from_data` has new arguments to personnalize the workspace:
@@ -20,6 +26,11 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
   creates a project with DESCRIPTION file with `Type: Project` and
   {rjd3qr} as dependency
   [\#83](https://github.com/InseeFr/rjd3production/issues/83)
+- `retrieve_XXX` and `assign_XXX` functions now takes a `spec_type`
+  argument to specify nthe specification used to retrieve information or
+  assign information
+  [\#59](https://github.com/InseeFr/rjd3production/issues/59) and
+  [\#31](https://github.com/InseeFr/rjd3production/issues/31)
 
 #### Fixed
 
