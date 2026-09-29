@@ -24,3 +24,5 @@ Authors:
 
 - Tanguy Barthelemy <timeserieswithjdemetraandr@gmail.com> \[artist,
   copyright holder\]
+
+- Eulalie Delaune <eulalie.delaune-virrion@insee.fr>

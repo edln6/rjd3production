@@ -1,6 +1,6 @@
 # Changelog
 
-## rjd3production 1.1.1.9000
+## rjd3production 1.2.0
 
 All notable changes to this project will be documented in this file.
 
@@ -8,7 +8,7 @@ The format is based on [Keep a
 Changelog](https://keepachangelog.com/en/1.1.0/), and this project
 adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-### [Unreleased](https://github.com/InseeFr/rjd3production/compare/v1.1.1...HEAD)
+### \[1.2.0\] - 2026-09-29
 
 #### Added
 
@@ -37,6 +37,7 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 - [`set_minimum_span()`](https://inseefr.github.io/rjd3production/reference/set_minimum_span.md)
   uses now `span_type` instead of `series_span` and `model_span` to
   specify which span should be modified.
+- Updated JARS from jdplus-main to 3.9.0
 
 #### Fixed
 
